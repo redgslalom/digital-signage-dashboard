@@ -1,0 +1,317 @@
+{
+  "common": {
+    "dashboard": "Digital Signage Dashboard",
+    "menu": {
+      "dashboard": "Dashboard",
+      "content": "Content Management",
+      "schedule": "Schedule",
+      "devices": "Devices",
+      "analytics": "Analytics",
+      "users": "Users",
+      "connectivity": "Connectivity",
+      "notifications": "Notifications",
+      "settings": "Settings",
+      "help": "Help"
+    },
+    "actions": {
+      "view": "View",
+      "edit": "Edit",
+      "delete": "Delete",
+      "configure": "Configure",
+      "view_details": "View Details",
+      "establish_goal": "Establish Goal"
+    }
+  },
+  "content": {
+    "title": "Content Management",
+    "main_title": "Content Management",
+    "upload_button": "Upload Content",
+    "tabs": {
+      "content": "Content",
+      "schedule": "Schedule",
+      "devices": "Devices"
+    },
+    "library": {
+      "title": "Content Library",
+      "description": "Manage all your digital content files",
+      "table": {
+        "type": "Type",
+        "name": "Name",
+        "status": "Status",
+        "device": "Device",
+        "duration": "Duration (s)",
+        "created": "Created",
+        "actions": "Actions"
+      },
+      "types": {
+        "image": "image",
+        "video": "video",
+        "text": "text"
+      }
+    },
+    "schedule_tab": {
+      "schedule_title": "Schedule Content",
+      "schedule_description": "Configure when and where to display your content",
+      "select_content": "Select Content",
+      "select_content_placeholder": "Choose content",
+      "target_device": "Target Device",
+      "target_device_placeholder": "Select device",
+      "start_date": "Start Date",
+      "start_time": "Start Time",
+      "duration_seconds": "Duration (seconds)",
+      "repeat_daily": "Repeat daily",
+      "schedule_button": "Schedule Content",
+      "active_schedule_title": "Active Schedule",
+      "active_schedule_description": "Content scheduled for the upcoming days",
+      "time_today": "Today",
+      "time_tomorrow": "Tomorrow",
+      "time_hourly": "Every hour"
+    },
+    "devices_tab": {
+      "main_screen": "Main Screen",
+      "lobby": "Lobby",
+      "cafeteria": "Cafeteria",
+      "online": "Online",
+      "offline": "Disconnected",
+      "last_content": "Last content",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "content_items": {
+      "christmas_promo": "Christmas Promotion",
+      "corporate_video": "Corporate Video",
+      "security_announcement": "Security Announcement",
+      "daily_menu": "Daily Menu"
+    },
+    "devices": {
+      "main_screen": "Main Screen",
+      "lobby": "Lobby",
+      "all_screens": "All screens",
+      "cafeteria": "Cafeteria"
+    },
+    "status": {
+      "active": "Active",
+      "scheduled": "Scheduled",
+      "inactive": "Inactive",
+      "recurring": "Recurring"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "metrics": {
+      "total_revenue": "Total Revenue",
+      "total_revenue_desc": "Your revenue from the last 12 months",
+      "subscriptions": "Subscriptions",
+      "subscriptions_desc": "Active content subscriptions",
+      "sales": "Sales",
+      "sales_desc": "Total sales this month",
+      "active_now": "Active Now",
+      "active_now_desc": "Users currently active",
+      "since_last_month": "since last month",
+      "since_last_hour": "since last hour"
+    },
+    "charts": {
+      "revenue_summary": "Revenue Summary",
+      "revenue_summary_desc": "Your revenue from the last 12 months",
+      "activity_analytics": "Performance Analytics",
+      "activity_analytics_desc": "Exercise minutes and activity from your Digital Signage devices"
+    },
+    "calendar": {
+      "title": "Calendar",
+      "description": "Manage your content scheduling and important dates"
+    },
+    "activity": {
+      "recent_activity": "Recent Activity",
+      "recent_activity_desc": "Latest system transactions and activities",
+      "activity_goals": "Activity Goals",
+      "activity_goals_desc": "Set your daily activity goals",
+      "content_published": "Content Published",
+      "engagement_rate": "Engagement Rate",
+      "active_devices": "Active Devices"
+    },
+    "table": {
+      "status": "Status",
+      "email": "Email",
+      "amount": "Amount",
+      "actions": "Actions"
+    },
+    "status_values": {
+      "successful": "Successful",
+      "processing": "Processing",
+      "failed": "Failed"
+    }
+  },
+  "schedule": {
+    "title": "Schedule",
+    "main_title": "Content Scheduling",
+    "new_schedule_button": "New Schedule",
+    "tabs": {
+      "schedule": "Schedule",
+      "calendar": "Calendar",
+      "events": "Today's Events"
+    },
+    "scheduled_content": {
+      "title": "Scheduled Content",
+      "description": "Manage when and where your content is displayed",
+      "table": {
+        "content": "Content",
+        "device": "Device",
+        "schedule": "Schedule",
+        "date": "Date",
+        "repeat": "Repeat",
+        "status": "Status",
+        "actions": "Actions"
+      }
+    },
+    "calendar_view": {
+      "title": "Calendar View",
+      "description": "View content scheduling in calendar format",
+      "selected_day_title": "Selected Day Events",
+      "select_date": "Select a date"
+    },
+    "upcoming_events": {
+      "title": "Upcoming Events",
+      "description": "Content scheduled for the next few hours"
+    },
+    "day_stats": {
+      "title": "Day Statistics",
+      "description": "Summary of scheduled activity",
+      "total_events": "Total events",
+      "active_events": "Active events",
+      "pending": "Pending",
+      "devices_used": "Devices used"
+    },
+    "repeat_options": {
+      "daily": "Daily",
+      "weekdays": "Monday to Friday",
+      "hourly": "Every hour"
+    },
+    "time_labels": {
+      "today": "Today"
+    },
+    "devices": {
+      "main_lobby": "Main Lobby",
+      "meeting_room": "Meeting Room"
+    },
+    "content_items": {
+      "meeting_schedule": "Meeting Schedule"
+    }
+  },
+  "devices": {
+    "title": "Devices",
+    "main_title": "Device Management",
+    "add_device_button": "Add Device",
+    "stats": {
+      "total_devices": "Total Devices",
+      "total_devices_desc": "On the network",
+      "online": "Online",
+      "online_desc": "66.7% operational",
+      "offline": "Offline",
+      "offline_desc": "Requires attention",
+      "warnings": "With Warnings",
+      "warnings_desc": "Check status"
+    },
+    "device_card": {
+      "ip": "IP:",
+      "current_content": "Current Content:",
+      "active": "Active",
+      "configure": "Configure",
+      "view_details": "View Details"
+    },
+    "status": {
+      "online": "Online",
+      "offline": "Offline",
+      "warning": "Warning"
+    },
+    "device_names": {
+      "main_screen": "Main Screen",
+      "lobby_screen": "Lobby Screen",
+      "cafeteria_screen": "Cafeteria Screen",
+      "reception_screen": "Reception Screen",
+      "meeting_room_screen": "Meeting Room Screen",
+      "elevator_screen": "Elevator Screen"
+    },
+    "locations": {
+      "main_lobby": "Main Lobby",
+      "main_entrance": "Main Entrance",
+      "break_area": "Break Area",
+      "reception": "Reception",
+      "floor_2": "Floor 2",
+      "main_elevator": "Main Elevator"
+    },
+    "content_items": {
+      "christmas_promo": "Christmas Promotion",
+      "corporate_video": "Corporate Video",
+      "daily_menu": "Daily Menu",
+      "general_info": "General Information",
+      "meeting_schedule": "Meeting Schedule",
+      "internal_news": "Internal News"
+    }
+  },
+  "analytics": {
+    "title": "Analytics",
+    "main_title": "Analytics & Reports",
+    "export_report_button": "Export Report",
+    "stats": {
+      "total_views": "Total Views",
+      "total_views_desc": "+12.5% vs. last month",
+      "engagement_rate": "Engagement Rate",
+      "engagement_rate_desc": "+2.1% vs. last month",
+      "avg_time": "Average Time",
+      "avg_time_desc": "-0.3% vs. last month",
+      "active_devices": "Active Devices",
+      "active_devices_desc": "83.3% availability"
+    },
+    "tabs": {
+      "overview": "Overview",
+      "devices": "By Devices",
+      "content": "By Content",
+      "engagement": "Engagement"
+    },
+    "overview": {
+      "views_trend_title": "Views Trend",
+      "views_trend_desc": "Views per month in the last 12 months",
+      "device_activity_title": "Device Activity",
+      "device_activity_desc": "Device performance during the day"
+    },
+    "devices": {
+      "usage_title": "Device Usage",
+      "usage_desc": "View distribution by device",
+      "performance_title": "Device Performance",
+      "performance_desc": "Detailed statistics for each device",
+      "traffic_percent": "% of traffic",
+      "views": "views"
+    },
+    "content": {
+      "performance_title": "Content Performance",
+      "performance_desc": "Engagement statistics by content",
+      "devices": "devices",
+      "views": "views",
+      "engagement": "engagement"
+    },
+    "engagement": {
+      "trends_title": "Engagement Trends",
+      "trends_desc": "Views and interactions during the day",
+      "views": "Views",
+      "interactions": "Interactions"
+    },
+    "device_names": {
+      "main_screen": "Main Screen",
+      "lobby": "Lobby",
+      "cafeteria": "Cafeteria",
+      "reception": "Reception",
+      "others": "Others"
+    },
+    "content_items": {
+      "christmas_promo": "Christmas Promotion",
+      "corporate_video": "Corporate Video",
+      "daily_menu": "Daily Menu",
+      "security_announcement": "Security Announcement",
+      "meeting_schedule": "Meeting Schedule"
+    }
+  },
+  "language": {
+    "english": "English",
+    "spanish": "Spanish"
+  }
+}

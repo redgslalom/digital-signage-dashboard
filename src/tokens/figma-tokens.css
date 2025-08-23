@@ -1,0 +1,85 @@
+/* 
+ * Design Tokens extraídos desde Figma
+ * Archivo: shadcn_ui-kit-for-Figma - New York - January 2025
+ * Generado automáticamente - NO EDITAR MANUALMENTE
+ */
+
+:root {
+  /* Colores primarios de tu Design System */
+  --primary-light: #009b74ff; /* #009b74ff */
+  --primary-dark: #2ed9a4ff; /* #2ed9a4ff */
+
+  --primary-light: {1. tailwindcss.custom colors.example.600}; /* {1. tailwindcss.custom colors.example.600} */
+  --primary-dark: {1. tailwindcss.custom colors.example.400}; /* {1. tailwindcss.custom colors.example.400} */
+  --accent-light: {1. tailwindcss.tailwind colors.zinc.100}; /* {1. tailwindcss.tailwind colors.zinc.100} */
+  --accent-foreground-dark: {1. tailwindcss.tailwind colors.zinc.50}; /* {1. tailwindcss.tailwind colors.zinc.50} */
+  --background-light: {1. tailwindcss.tailwind colors.base.white}; /* {1. tailwindcss.tailwind colors.base.white} */
+  --background-dark: {1. tailwindcss.tailwind colors.zinc.950}; /* {1. tailwindcss.tailwind colors.zinc.950} */
+  --border-light: {1. tailwindcss.tailwind colors.zinc.200}; /* {1. tailwindcss.tailwind colors.zinc.200} */
+  --border-dark: {1. tailwindcss.tailwind colors.zinc.800}; /* {1. tailwindcss.tailwind colors.zinc.800} */
+  --card-light: {1. tailwindcss.tailwind colors.base.white}; /* {1. tailwindcss.tailwind colors.base.white} */
+  --card-dark: {1. tailwindcss.tailwind colors.zinc.950}; /* {1. tailwindcss.tailwind colors.zinc.950} */
+  --accent-dark: {1. tailwindcss.tailwind colors.zinc.800}; /* {1. tailwindcss.tailwind colors.zinc.800} */
+  --card-foreground-light: {1. tailwindcss.tailwind colors.zinc.950}; /* {1. tailwindcss.tailwind colors.zinc.950} */
+  --card-foreground-dark: {1. tailwindcss.tailwind colors.zinc.50}; /* {1. tailwindcss.tailwind colors.zinc.50} */
+  --destructive-light: {1. tailwindcss.tailwind colors.red.600}; /* {1. tailwindcss.tailwind colors.red.600} */
+  --destructive-dark: {1. tailwindcss.tailwind colors.red.900}; /* {1. tailwindcss.tailwind colors.red.900} */
+  --destructive-foreground-light: {1. tailwindcss.tailwind colors.red.50}; /* {1. tailwindcss.tailwind colors.red.50} */
+  --destructive-foreground-dark: {1. tailwindcss.tailwind colors.red.50}; /* {1. tailwindcss.tailwind colors.red.50} */
+  --accent-foreground-light: {1. tailwindcss.tailwind colors.zinc.900}; /* {1. tailwindcss.tailwind colors.zinc.900} */
+  --foreground-light: {1. tailwindcss.tailwind colors.zinc.900}; /* {1. tailwindcss.tailwind colors.zinc.900} */
+  --foreground-dark: {1. tailwindcss.tailwind colors.zinc.50}; /* {1. tailwindcss.tailwind colors.zinc.50} */
+  --input-light: {1. tailwindcss.tailwind colors.zinc.200}; /* {1. tailwindcss.tailwind colors.zinc.200} */
+  --input-dark: {1. tailwindcss.tailwind colors.zinc.800}; /* {1. tailwindcss.tailwind colors.zinc.800} */
+  --muted-light: {1. tailwindcss.tailwind colors.zinc.100}; /* {1. tailwindcss.tailwind colors.zinc.100} */
+  --muted-dark: {1. tailwindcss.tailwind colors.zinc.800}; /* {1. tailwindcss.tailwind colors.zinc.800} */
+  --popover-light: {1. tailwindcss.tailwind colors.base.white}; /* {1. tailwindcss.tailwind colors.base.white} */
+  --popover-dark: {1. tailwindcss.tailwind colors.zinc.950}; /* {1. tailwindcss.tailwind colors.zinc.950} */
+  --popover-foreground-light: {1. tailwindcss.tailwind colors.zinc.950}; /* {1. tailwindcss.tailwind colors.zinc.950} */
+  --popover-foreground-dark: {1. tailwindcss.tailwind colors.zinc.50}; /* {1. tailwindcss.tailwind colors.zinc.50} */
+  --primary-foreground-light: {1. tailwindcss.tailwind colors.zinc.50}; /* {1. tailwindcss.tailwind colors.zinc.50} */
+  --primary-foreground-dark: {1. tailwindcss.tailwind colors.zinc.900}; /* {1. tailwindcss.tailwind colors.zinc.900} */
+  --ring-light: {1. tailwindcss.tailwind colors.zinc.900}; /* {1. tailwindcss.tailwind colors.zinc.900} */
+  --ring-dark: {1. tailwindcss.tailwind colors.zinc.300}; /* {1. tailwindcss.tailwind colors.zinc.300} */
+  --secondary-light: {1. tailwindcss.tailwind colors.zinc.100}; /* {1. tailwindcss.tailwind colors.zinc.100} */
+  --secondary-dark: {1. tailwindcss.tailwind colors.zinc.800}; /* {1. tailwindcss.tailwind colors.zinc.800} */
+  --secondary-foreground-light: {1. tailwindcss.tailwind colors.zinc.900}; /* {1. tailwindcss.tailwind colors.zinc.900} */
+  --secondary-foreground-dark: {1. tailwindcss.tailwind colors.zinc.50}; /* {1. tailwindcss.tailwind colors.zinc.50} */
+  --muted-foreground-light: {1. tailwindcss.tailwind colors.zinc.500}; /* {1. tailwindcss.tailwind colors.zinc.500} */
+  --muted-foreground-dark: {1. tailwindcss.tailwind colors.zinc.400}; /* {1. tailwindcss.tailwind colors.zinc.400} */
+  --chart-1-light: #2a9d90ff; /* #2a9d90ff */
+  --chart-1-dark: #2662d9ff; /* #2662d9ff */
+  --chart-2-light: #e76e50ff; /* #e76e50ff */
+  --chart-2-dark: #e23670ff; /* #e23670ff */
+  --chart-3-light: #274754ff; /* #274754ff */
+  --chart-3-dark: #e88c30ff; /* #e88c30ff */
+  --chart-4-light: #e8c468ff; /* #e8c468ff */
+  --chart-4-dark: #af57dbff; /* #af57dbff */
+  --chart-5-light: #f4a462ff; /* #f4a462ff */
+  --chart-5-dark: #2eb88aff; /* #2eb88aff */
+  --sidebar-foreground-light: {1. tailwindcss.tailwind colors.zinc.700}; /* {1. tailwindcss.tailwind colors.zinc.700} */
+  --sidebar-background-light: {1. tailwindcss.tailwind colors.zinc.50}; /* {1. tailwindcss.tailwind colors.zinc.50} */
+  --sidebar-background-dark: {1. tailwindcss.tailwind colors.zinc.900}; /* {1. tailwindcss.tailwind colors.zinc.900} */
+  --sidebar-foreground-dark: {1. tailwindcss.tailwind colors.zinc.100}; /* {1. tailwindcss.tailwind colors.zinc.100} */
+  --sidebar-primary-light: {1. tailwindcss.tailwind colors.zinc.900}; /* {1. tailwindcss.tailwind colors.zinc.900} */
+  --sidebar-primary-dark: {1. tailwindcss.tailwind colors.blue.700}; /* {1. tailwindcss.tailwind colors.blue.700} */
+  --sidebar-primary-foreground-light: {1. tailwindcss.tailwind colors.zinc.50}; /* {1. tailwindcss.tailwind colors.zinc.50} */
+  --sidebar-primary-foreground-dark: {1. tailwindcss.tailwind colors.base.white}; /* {1. tailwindcss.tailwind colors.base.white} */
+  --sidebar-accent-light: {1. tailwindcss.tailwind colors.zinc.100}; /* {1. tailwindcss.tailwind colors.zinc.100} */
+  --sidebar-accent-dark: {1. tailwindcss.tailwind colors.zinc.800}; /* {1. tailwindcss.tailwind colors.zinc.800} */
+  --sidebar-accent-foreground-light: {1. tailwindcss.tailwind colors.zinc.900}; /* {1. tailwindcss.tailwind colors.zinc.900} */
+  --sidebar-accent-foreground-dark: {1. tailwindcss.tailwind colors.zinc.100}; /* {1. tailwindcss.tailwind colors.zinc.100} */
+  --sidebar-border-light: {1. tailwindcss.tailwind colors.gray.200}; /* {1. tailwindcss.tailwind colors.gray.200} */
+  --sidebar-border-dark: {1. tailwindcss.tailwind colors.zinc.800}; /* {1. tailwindcss.tailwind colors.zinc.800} */
+  --sidebar-ring-light: {1. tailwindcss.tailwind colors.zinc.400}; /* {1. tailwindcss.tailwind colors.zinc.400} */
+  --sidebar-ring-dark: {1. tailwindcss.tailwind colors.zinc.300}; /* {1. tailwindcss.tailwind colors.zinc.300} */
+
+  /* Sombras de tu Design System */
+  --shadow-sm: 0px 1px 2px 0px #0000000d;
+  --shadow-2xl: 0px 25px 50px -12px #00000040;
+  --shadow-inner: 0px 2px 4px 0px #0000000f;
+}
+
+.dark {
+  /* Tokens para modo oscuro */
+}

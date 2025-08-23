@@ -1,0 +1,133 @@
+/* 
+ * Design Tokens desde tu Figma Design System
+ * shadcn_ui-kit-for-Figma - New York - January 2025
+ * 
+ * ✅ Usando EXCLUSIVAMENTE tus tokens de Figma
+ * 🎨 Paleta principal: Verde (#009b74 - #2ed9a4)  
+ * 🌗 Soporte completo para light/dark mode
+ */
+
+:root {
+  /* Colores primarios de tu Design System - MODO CLARO */
+  --primary: oklch(0.598 0.145 162.5); /* #009b74 - Verde esmeralda */
+  --primary-foreground: oklch(1 0 0); /* #ffffff - Blanco */
+  
+  /* Fondos y superficies */
+  --background: oklch(1 0 0); /* #ffffff - Blanco */
+  --foreground: oklch(0.142 0.028 106.423); /* #18181b - Zinc 900 */
+  --card: oklch(1 0 0); /* #ffffff - Blanco */
+  --card-foreground: oklch(0.089 0.032 106.423); /* #09090b - Zinc 950 */
+  
+  /* Colores secundarios */
+  --secondary: oklch(0.968 0.004 106.423); /* #f4f4f5 - Zinc 100 */
+  --secondary-foreground: oklch(0.142 0.028 106.423); /* #18181b - Zinc 900 */
+  
+  /* Acentos */
+  --accent: oklch(0.968 0.004 106.423); /* #f4f4f5 - Zinc 100 */
+  --accent-foreground: oklch(0.142 0.028 106.423); /* #18181b - Zinc 900 */
+  
+  /* Muted */
+  --muted: oklch(0.968 0.004 106.423); /* #f4f4f5 - Zinc 100 */
+  --muted-foreground: oklch(0.506 0.016 106.423); /* #71717a - Zinc 500 */
+  
+  /* Destructive */
+  --destructive: oklch(0.577 0.214 27.325); /* #dc2626 - Red 600 */
+  --destructive-foreground: oklch(0.977 0.013 17.38); /* #fef2f2 - Red 50 */
+  
+  /* Bordes y inputs */
+  --border: oklch(0.922 0.006 106.423); /* #e4e4e7 - Zinc 200 */
+  --input: oklch(0.922 0.006 106.423); /* #e4e4e7 - Zinc 200 */
+  --ring: oklch(0.142 0.028 106.423); /* #18181b - Zinc 900 */
+  
+  /* Popovers */
+  --popover: oklch(1 0 0); /* #ffffff - Blanco */
+  --popover-foreground: oklch(0.089 0.032 106.423); /* #09090b - Zinc 950 */
+  
+  /* Sidebar específico */
+  --sidebar-background: oklch(0.985 0.002 106.423); /* #fafafa - Zinc 50 */
+  --sidebar-foreground: oklch(0.309 0.021 106.423); /* #3f3f46 - Zinc 700 */
+  --sidebar-primary: oklch(0.142 0.028 106.423); /* #18181b - Zinc 900 */
+  --sidebar-primary-foreground: oklch(0.985 0.002 106.423); /* #fafafa - Zinc 50 */
+  --sidebar-accent: oklch(0.968 0.004 106.423); /* #f4f4f5 - Zinc 100 */
+  --sidebar-accent-foreground: oklch(0.142 0.028 106.423); /* #18181b - Zinc 900 */
+  --sidebar-border: oklch(0.922 0.003 247.858); /* #e5e7eb - Gray 200 */
+  --sidebar-ring: oklch(0.681 0.014 106.423); /* #a1a1aa - Zinc 400 */
+  
+  /* Charts con tu paleta verde */
+  --chart-1: oklch(0.598 0.145 162.5); /* #009b74 - Verde esmeralda */
+  --chart-2: oklch(0.858 0.145 162.5); /* #6aebbf - Verde claro */
+  --chart-3: oklch(0.708 0.185 60.72); /* Orange */
+  --chart-4: oklch(0.658 0.22 316.6); /* Purple */
+  --chart-5: oklch(0.578 0.19 355.8); /* Pink */
+  
+  /* Sombras de tu Design System */
+  --shadow-sm: 0px 1px 2px 0px #0000000d;
+  --shadow-2xl: 0px 25px 50px -12px #00000040;
+  --shadow-inner: 0px 2px 4px 0px #0000000f;
+  
+  /* Variables adicionales para Digital Signage */
+  --brand-primary: var(--primary);
+  --brand-secondary: oklch(0.788 0.165 162.5); /* #2ed9a4 - Verde aguamarina */
+  
+  /* Estados para Digital Signage */
+  --status-online: var(--primary);
+  --status-offline: var(--destructive);
+  --status-warning: oklch(0.808 0.171 85.594); /* Amarillo */
+  
+  /* Radius de tu sistema */
+  --radius: 0.625rem;
+}
+
+.dark {
+  /* Colores primarios para MODO OSCURO */
+  --primary: oklch(0.858 0.145 162.5); /* #6aebbf - Verde más claro para mejor visibilidad */
+  --primary-foreground: oklch(0.368 0.115 162.5); /* #03624d - Verde oscuro */
+  
+  /* Fondos y superficies oscuras */
+  --background: oklch(0.089 0.032 106.423); /* #09090b - Zinc 950 */
+  --foreground: oklch(0.985 0.002 106.423); /* #fafafa - Zinc 50 */
+  --card: oklch(0.089 0.032 106.423); /* #09090b - Zinc 950 */
+  --card-foreground: oklch(0.985 0.002 106.423); /* #fafafa - Zinc 50 */
+  
+  /* Colores secundarios oscuros */
+  --secondary: oklch(0.203 0.025 106.423); /* #27272a - Zinc 800 */
+  --secondary-foreground: oklch(0.985 0.002 106.423); /* #fafafa - Zinc 50 */
+  
+  /* Acentos oscuros */
+  --accent: oklch(0.203 0.025 106.423); /* #27272a - Zinc 800 */
+  --accent-foreground: oklch(0.985 0.002 106.423); /* #fafafa - Zinc 50 */
+  
+  /* Muted oscuro */
+  --muted: oklch(0.203 0.025 106.423); /* #27272a - Zinc 800 */
+  --muted-foreground: oklch(0.681 0.014 106.423); /* #a1a1aa - Zinc 400 */
+  
+  /* Destructive oscuro */
+  --destructive: oklch(0.372 0.158 27.325); /* #7f1d1d - Red 900 */
+  --destructive-foreground: oklch(0.977 0.013 17.38); /* #fef2f2 - Red 50 */
+  
+  /* Bordes y inputs oscuros */
+  --border: oklch(0.203 0.025 106.423); /* #27272a - Zinc 800 */
+  --input: oklch(0.203 0.025 106.423); /* #27272a - Zinc 800 */
+  --ring: oklch(0.863 0.009 106.423); /* #d4d4d8 - Zinc 300 */
+  
+  /* Popovers oscuros */
+  --popover: oklch(0.089 0.032 106.423); /* #09090b - Zinc 950 */
+  --popover-foreground: oklch(0.985 0.002 106.423); /* #fafafa - Zinc 50 */
+  
+  /* Sidebar oscuro */
+  --sidebar-background: oklch(0.142 0.028 106.423); /* #18181b - Zinc 900 */
+  --sidebar-foreground: oklch(0.968 0.004 106.423); /* #f4f4f5 - Zinc 100 */
+  --sidebar-primary: oklch(0.474 0.196 264.376); /* #1d4ed8 - Blue 700 */
+  --sidebar-primary-foreground: oklch(1 0 0); /* #ffffff - Blanco */
+  --sidebar-accent: oklch(0.203 0.025 106.423); /* #27272a - Zinc 800 */
+  --sidebar-accent-foreground: oklch(0.968 0.004 106.423); /* #f4f4f5 - Zinc 100 */
+  --sidebar-border: oklch(0.203 0.025 106.423); /* #27272a - Zinc 800 */
+  --sidebar-ring: oklch(0.863 0.009 106.423); /* #d4d4d8 - Zinc 300 */
+  
+  /* Charts para modo oscuro */
+  --chart-1: oklch(0.858 0.145 162.5); /* Verde claro principal */
+  --chart-2: oklch(0.948 0.065 162.5); /* Verde muy claro */
+  --chart-3: oklch(0.758 0.205 60.72); /* Orange más brillante */
+  --chart-4: oklch(0.708 0.24 316.6); /* Purple más brillante */
+  --chart-5: oklch(0.628 0.21 355.8); /* Pink más brillante */
+}
