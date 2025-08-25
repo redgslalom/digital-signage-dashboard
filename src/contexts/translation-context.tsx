@@ -7,7 +7,7 @@ import esTranslations from '@/locales/es.json';
 type Language = 'en' | 'es';
 
 type Translations = {
-  [key: string]: any;
+  [key: string]: unknown;
 };
 
 const translations: Record<Language, Translations> = {
@@ -45,24 +45,24 @@ export function TranslationProvider({ children }: { children: ReactNode }) {
   // Función para obtener traducción por identificador (key path)
   const t = (key: string): string => {
     const keys = key.split('.');
-    let value: any = translations[currentLanguage];
+    let value: unknown = translations[currentLanguage];
     
     for (const k of keys) {
-      value = value?.[k];
+      value = (value as Record<string, unknown>)?.[k];
       if (value === undefined) break;
     }
     
     // Si no encuentra la traducción, devolver la key o intentar en inglés
     if (value === undefined) {
-      let fallbackValue: any = translations.en;
+      let fallbackValue: unknown = translations.en;
       for (const k of keys) {
-        fallbackValue = fallbackValue?.[k];
+        fallbackValue = (fallbackValue as Record<string, unknown>)?.[k];
         if (fallbackValue === undefined) break;
       }
-      return fallbackValue || key;
+      return (typeof fallbackValue === 'string' ? fallbackValue : key);
     }
     
-    return value;
+    return (typeof value === 'string' ? value : key);
   };
 
   // Cambiar idioma
